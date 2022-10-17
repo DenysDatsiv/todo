@@ -48,8 +48,8 @@ const Home = () => {
       }}
     >
       <section className={styles.Form_block} >
-          <form onSubmit={handleSubmit}>
-            <FormOfTodo />
+          <form className={styles.main_form} onSubmit={handleSubmit}>
+            <FormOfTodo className={styles.FormOfTodo_block} />
           </form>
           <Result />
       </section>

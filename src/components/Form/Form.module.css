@@ -1,0 +1,29 @@
+.input_todo {
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    min-width: 1em;
+    max-width: 40em;
+    box-sizing: border-box;
+    border:1px solid #2c3e50;
+    font-size: 13px;
+  }
+.input_block
+{
+    display: flex;
+    flex-direction: row;
+}
+.btn_add
+{
+    background-color: red;
+    border-radius: 8px;
+    margin: 0 8px;
+    border: 1px solid red;
+}
+.btn_clean
+{
+    background-color: rgba(9, 210, 32, 0.712);
+border-radius: 8px;
+border: 1px solid ;
+}

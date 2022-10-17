@@ -1,1 +1,21 @@
-.Form_block
+body {
+    margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+  background-color: rgba(14, 14, 74, 0.929);
+}
+
+.Form_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 25px;
+  padding: 21vh 4.6rem;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+  height: 30vh;
+  overflow-y: auto;
+}
